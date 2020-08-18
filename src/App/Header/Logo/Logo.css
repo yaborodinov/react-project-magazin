@@ -10,7 +10,7 @@
 
 }
 .logo>a:hover{
-    color: #000;
+    color: rgb(194, 194, 194);
     transition: all 0.2s ease-in-out;
 }
 

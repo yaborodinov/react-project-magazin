@@ -11,6 +11,10 @@
 .nav__mobile-menu:hover{
     cursor: pointer;
 }
+.nav__mobile-menu:hover > span{
+    background-color: #000;
+    transition: all 0.2s ease-in-out;
+}
 .nav__mobile-menu span{
     height: 3px;
     background-color: #fff;
