@@ -58,7 +58,9 @@
 
 /* mobile */
 @media(max-width:767px){
-    
+    .nav__item>a{
+        font-size: 16px;
+    }
 .nav-main__list>.nav__item:nth-child(4){
         display: block;
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Common/Style/Reset.css"
-import "./Common/Style/Greed.css"
+import "./Common/Style/Grid.css"
 import "./Common/Style/Base.css"
 
 import Header from "./App/Header/Header.js"

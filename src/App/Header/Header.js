@@ -3,6 +3,7 @@ import Logo from "./Logo/Logo"
 import NavMobileMenu from "./NavMobileMenu/NavMobileMenu"
 import NavMenuList from "./NavMainList/NavMainList"
 import NavMenuAside from "./NavMenuAside/NavMenuAside"
+import Search from "./Search/Search"
 
 import "./Header.css"
 
@@ -16,7 +17,8 @@ const Header = ()=> {
                     <NavMobileMenu/> 
                     <Logo />
                     <NavMenuList />
-                    <NavMenuAside/>
+                    <NavMenuAside />
+                    <Search />
 
                 </div>
             </div>

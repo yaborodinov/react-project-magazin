@@ -8,6 +8,7 @@
 .header__row{
     align-items: center;
     display: flex;
+    justify-content: space-between;
 }
 
 a{

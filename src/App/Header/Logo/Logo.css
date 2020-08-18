@@ -17,6 +17,13 @@
 
 
 
+/* laptop */
+@media(min-width:992px){
+    .logo>a{
+        font-size: 26px;
+    }
+}
+
 
 /* mobile */
 @media(max-width:767px){
