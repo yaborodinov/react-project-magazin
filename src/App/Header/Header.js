@@ -1,4 +1,8 @@
 import React from "react"
+import Logo from "./Logo/Logo"
+import NavMobileMenu from "./NavMobileMenu/NavMobileMenu"
+import NavMenuList from "./NavMainList/NavMainList"
+import NavMenuAside from "./NavMenuAside/NavMenuAside"
 
 import "./Header.css"
 
@@ -7,11 +11,14 @@ const Header = ()=> {
     return (
         <header className="header">
             <div className="container">
-                <ul className="row nav">
-                    <li className="col col-md-12 col-sm-4 nav__item"><a href="#">Home</a></li>
-                    <li className="col col-md-12 col-sm-4 nav__item"><a href="#">About</a></li>
-                    <li className="col col-md-12 col-sm-4 nav__item"><a href="#">Contacts</a></li>
-                </ul>
+                
+                <div className="row header__row">
+                    <NavMobileMenu/> 
+                    <Logo />
+                    <NavMenuList />
+                    <NavMenuAside/>
+
+                </div>
             </div>
         </header>
     )

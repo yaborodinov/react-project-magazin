@@ -1,0 +1,25 @@
+.nav-menu-aside__list > .nav__item{
+    display: none;
+}
+
+
+
+
+
+
+/* laptop */
+@media(min-width:992px){
+    .nav-menu-aside__list > .nav__item:nth-child(1){
+        display: block;
+    }
+}
+
+
+
+
+/* desktop */
+@media(min-width:1200px){
+    .nav-menu-aside__list > .nav__item:nth-child(2){
+        display: block;
+    }
+}

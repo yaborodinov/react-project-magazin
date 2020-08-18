@@ -1,0 +1,28 @@
+.logo{
+    display: block;
+    margin-right: 15px;
+}
+.logo>a{
+    font-family: 'Merriweather', serif;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 900;
+
+}
+.logo>a:hover{
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}
+
+
+
+
+
+/* mobile */
+@media(max-width:767px){
+    .logo{
+        display: none;
+    }
+
+
+} 

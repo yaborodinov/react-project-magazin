@@ -1,0 +1,31 @@
+
+.nav__mobile-menu{
+    padding-left: 0;
+    padding-right: 0;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    margin: 0 15px;
+}
+.nav__mobile-menu:hover{
+    cursor: pointer;
+}
+.nav__mobile-menu span{
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+
+}
+.nav__mobile-menu  span:nth-child(1){
+    top: 3px;
+}
+.nav__mobile-menu  span:nth-child(2){
+    top: 8px;
+}
+.nav__mobile-menu  span:nth-child(3){
+    bottom: 0;
+}
+
+
