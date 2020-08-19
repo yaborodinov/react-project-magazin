@@ -19,35 +19,35 @@ const Main = () => {
             />
             <Cover
                 image={
-                    "images/photo/2.jpg"
+                    "images/photo/4.jpg"
                 }
                 title={
-                    <a href="#">dss</a>
+                    <a href="#">Keto or Paleo: Which Diet is Better for Fat-Loss?</a>
                 }
                 subtitle={
-                    <span>dddddddddd</span>
+                    <span>Both are espoused by influencers and experts alike, but only one is man’s best trend for burning fat</span>
                 }
             />
             <Cover
                 image={
-                    "images/photo/3.jpg"
+                    "images/photo/5.jpg"
                 }
                 title={
-                    <a href="#">dss</a>
+                    <a href="#">9 Professional Athletes Share The Workout and Fitness Tips That Got Them to the Top</a>
                 }
                 subtitle={
-                    <span>dddddddddd</span>
+                    <span>Yes, the "Fittest Man on Earth" still does bodyweight workouts</span>
                 }
             />
             <Cover
                 image={
-                    "images/photo/1.jpg"
+                    "images/photo/6.jpg"
                 }
                 title={
-                    <a href="#">dss</a>
+                    <a href="#">Want Bigger Arms? Try This 4-Move Workout That Also Hits Your Chest and Abs</a>
                 }
                 subtitle={
-                    <span>dddddddddd</span>
+                    <span>Using a smart combination of size-building principles and lung-searing protocols, this workout will pack-out your T-shirt. Fast</span>
                 }
             />
         </>
