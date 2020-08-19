@@ -21,6 +21,12 @@ const Header = ()=> {
                     <Search />
 
                 </div>
+
+
+                
+
+
+
             </div>
         </header>
     )

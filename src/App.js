@@ -11,12 +11,11 @@ import Main from "./App/Main/Main.js"
 
 function App() {
   return (
-    <div>
-        
+    <>
         <Header/>
         <Main/>
         <footer></footer> 
-    </div>
+    </>
   );
 }
 
