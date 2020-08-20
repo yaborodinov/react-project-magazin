@@ -1,0 +1,36 @@
+.section__mainCover{
+    max-height: 950px;
+    overflow-y: hidden;
+    position: relative;
+}
+
+.section__mainCover img{
+    width: 100%;
+    height: auto;
+    margin-bottom: -2px;
+    
+}
+.mainCover__info{
+    position: absolute;
+    bottom: 60px;
+    height: 100px;
+    background-color: #000;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+/* mobile */
+@media(max-width:767px){
+
+    .mainCover__info{
+        bottom: 40px;
+    }
+
+
+}

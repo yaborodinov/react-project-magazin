@@ -1,3 +1,6 @@
+.section{
+    margin-bottom: 30px;
+}
 .secton__cover-row{
     flex-direction: column;
     width: 100%;
