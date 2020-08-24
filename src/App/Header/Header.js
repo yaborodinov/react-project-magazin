@@ -18,7 +18,7 @@ const Header = ()=> {
             <div className="header">
                 <div className="container">
 
-                    <div className="row header__row">
+                    <div className=" header__row">
                         <NavMobileMenu/> 
                         <Logo />
                         <NavMenuList />
