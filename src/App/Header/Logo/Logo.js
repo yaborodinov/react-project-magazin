@@ -5,7 +5,7 @@ import "./Logo.css"
 const Logo = () => {
     return (
         <div className="col  logo">
-            <a href="">MEN'S HEALTH</a>
+            <img src="./images/icons/cxcxc.png" alt="menthhealth"/>
         </div>
     )
 }

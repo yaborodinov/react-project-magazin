@@ -2,17 +2,18 @@
     display: block;
     margin-right: 15px;
 }
-.logo>a{
+/* .logo>a{
     font-family: 'Merriweather', serif;
     font-size: 26px;
     color: #fff;
     font-weight: 900;
 
+} */
+.logo img{
+    height: 30px;
+    width: auto;
 }
-.logo>a:hover{
-    color: rgb(194, 194, 194);
-    transition: all 0.2s ease-in-out;
-}
+
 
 
 

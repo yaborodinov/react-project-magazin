@@ -7,16 +7,16 @@ import Header from "./App/Header/Header.js"
 import Main from "./App/Main/Main.js"
 
 
-
-
-function App() {
+const App = () => {
   return (
     <>
         <Header/>
         <Main/>
         <footer></footer> 
     </>
-  );
+  )
 }
+
+
 
 export default App;
