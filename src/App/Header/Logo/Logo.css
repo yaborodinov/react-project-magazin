@@ -2,13 +2,7 @@
     display: block;
     margin-right: 15px;
 }
-/* .logo>a{
-    font-family: 'Merriweather', serif;
-    font-size: 26px;
-    color: #fff;
-    font-weight: 900;
 
-} */
 .logo img{
     height: 30px;
     width: auto;
@@ -20,17 +14,17 @@
 
 /* laptop */
 @media(min-width:992px){
-    .logo>a{
-        font-size: 26px;
-    }
+    
 }
 
 
 /* mobile */
 @media(max-width:767px){
-    .logo{
-        display: none;
-    }
-
+    
+.logo img{
+    
+    max-width: 120px;
+    height: auto;
+}
 
 } 

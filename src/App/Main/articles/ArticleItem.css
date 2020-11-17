@@ -5,6 +5,9 @@
     flex-direction: column;
     width: 100%;
 }
+.section__article-item{
+    margin-bottom: 60px;
+}
 
 .section__article-img{
     width: 100%;

@@ -7,27 +7,36 @@ import ArticleListItem from "./ArticlesListItem"
 
 
 const ArticleList = () => {
+    
     return (
         
-            
             <div className="col" >
                 {
-                    ArticlesData.map(({
+
+                ArticlesData.slice(0, 1).map(({
+                        id,
                         title,
-                        text,
+                        subtitle,
                         image
                     }) => (
-                        
-                            <ArticleListItem
-                                    title={title}
-                                    text={text}
-                                    image={image}
+
+                        <ArticleListItem
+                                key={id}
+                                title={title}
+                                subtitle={subtitle}
+                                image={image}
                             />
-                        
-                    ))
+
+                        ))
 
                 }
+
+
+
+
+
             </div>
+            
         
     )
 }
