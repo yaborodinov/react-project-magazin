@@ -10,6 +10,18 @@ let ArticlesData = [
         title: "14 of the Best DIY Restaurant Kits Available Nationwide",
         subtitle: "Make  your lockdown all fancy with these ready-to-finish dinners (and one breakfast)",
         image:"./images/photo/6.jpg"
+    },
+    {
+        id: 3,
+        title: "The Soundtrack for Fargo Season 4 Is a Perfect Match",
+        subtitle: "Fargo is going through a jazz phase.",
+        image: "./images/photo/1.jpg"
+    },
+    {
+        id: 4,
+        title: "How to Train Your Sartorius Muscle",
+        subtitle: "The longest muscle in your body can be a key to better lower body training.)",
+        image: "./images/photo/2.jpg"
     }
 
 

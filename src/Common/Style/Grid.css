@@ -14,6 +14,7 @@
 .col{
     padding-right: 15px;
     padding-left: 15px;
+    margin-bottom: 10px;
 }
 
 .col-xs-2{
@@ -130,7 +131,9 @@
 .col-lg-4{
     width: 33.33333%;
 }
-
+.col-lg-8{
+    width: 66.66666%;
+}
 
 }
 
