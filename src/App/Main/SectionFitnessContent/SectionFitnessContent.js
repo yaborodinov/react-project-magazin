@@ -1,27 +1,30 @@
 import React from "react"
+import "./SectionFitnessContent.css"
 import ArticlesData from "../articles/ArticlesData";
 import SectionFitnessContentItem from "./SectionFitnessContentItem";
 
 
 const SectionFitnessContent = () => {
     return (
-        <div className="col col-xs-12 col-sm-6  col-md-4">
+        <>
             {
-                ArticlesData.slice(2,4).map(({
+                ArticlesData.slice(0,6).map(({
                     id,
                     title,
                     subtitle,
-                    image
+                    image,
+                    author
                 }) => (
                         <SectionFitnessContentItem
                             key={id}
                             title={title}
                             subtitle={subtitle}
                             image={image}
+                            author={author}
                         />
                 ))
             }
-        </div>
+        </>
     )
 }
 

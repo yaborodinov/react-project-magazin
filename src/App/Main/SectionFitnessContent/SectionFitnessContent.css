@@ -10,9 +10,53 @@
     height: 14px;
 }
 .section__fitness__content{
+    flex-direction: row;
     flex-wrap: wrap;
+    padding: 30px 0 30px 0;
 }
 
+
+.ContentItem_1x1{
+    margin-bottom: 30px;
+}
+
+
+.ContentItem_1x1__image-wrapper{
+    width: 100%;
+    max-height: 180px;
+    overflow-y: hidden;
+}
+
+
+.ContentItem_1x1__image{
+    width: 100%;
+    height: auto;
+
+}
+
+.ContentItem_1x1__title, .ContentItem_1x1__subtitle, .ContentItem_1x1__author{
+    padding: 10px 10px 10px 0;
+}
+
+.ContentItem_1x1__title{
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+}
+.ContentItem_1x1__subtitle{
+    font-family: 'Prata', serif;
+    font-weight: 500;
+}
+
+.ContentItem_1x1__author{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    color: rgba(102, 102, 119, 0.712);
+}
+.ContentItem_1x1__author:hover{
+    color: rgba(55, 55, 56, 0.979);
+    cursor: pointer;
+    transition: all linear 0.2s;
+}
 
 
 
