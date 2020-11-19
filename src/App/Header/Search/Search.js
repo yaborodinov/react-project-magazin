@@ -10,7 +10,7 @@ const Search = () => {
             <div className="header__img header__search"></div>
             <div className="header__language-change">
                 <div className="header__img  header__language"></div>
-                <div className="nav__item"><a href="#">uk</a></div>
+                <div className="nav__item">uk</div>
             </div>
         </div>
     )

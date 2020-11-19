@@ -3,7 +3,7 @@ import React, {Component} from "react"
 
 
 
-class ArticleListItem extends Component{
+class SectionContent2x1 extends Component{
     state={}
     render() {
         const {
@@ -28,4 +28,4 @@ class ArticleListItem extends Component{
 }
 
 
-export default ArticleListItem
+export default SectionContent2x1

@@ -3,7 +3,7 @@ import React from "react"
 
 
 
-const SectionFitnessContentItem = ({
+const SectionContent1x1 = ({
     title,
     subtitle,
     image,
@@ -22,4 +22,4 @@ const SectionFitnessContentItem = ({
         </div>
     )
 }
-export default SectionFitnessContentItem;
+export default SectionContent1x1;

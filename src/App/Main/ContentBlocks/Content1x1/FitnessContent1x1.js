@@ -1,10 +1,11 @@
 import React from "react"
 import "./SectionFitnessContent.css"
-import ArticlesData from "../articles/ArticlesData";
-import SectionFitnessContentItem from "./SectionFitnessContentItem";
+
+import ArticlesData from "../../articles/ArticlesData";
+import SectionContent1x1 from "./SectionContent1x1";
 
 
-const SectionFitnessContent = () => {
+const FitnessContent1x1 = () => {
     return (
         <>
             {
@@ -15,7 +16,7 @@ const SectionFitnessContent = () => {
                     image,
                     author
                 }) => (
-                        <SectionFitnessContentItem
+                        <SectionContent1x1
                             key={id}
                             title={title}
                             subtitle={subtitle}
@@ -30,4 +31,4 @@ const SectionFitnessContent = () => {
 
 
 
-export default SectionFitnessContent;
+export default FitnessContent1x1;

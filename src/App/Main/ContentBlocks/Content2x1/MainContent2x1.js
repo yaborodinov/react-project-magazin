@@ -1,26 +1,27 @@
 import React from "react"
 import "./ArticleItem.css"
 
-import ArticlesData from "./ArticlesData"
-import ArticleListItem from "./ArticlesListItem"
+import ArticlesData from "../../articles/ArticlesData"
+import SectionContent2x1 from "./SectionContent2x1"
 
 
 
-const ArticleList = () => {
+
+const MainContent2x1 = () => {
     
     return (
         
             <div className="col" >
                 {
 
-                ArticlesData.slice(0, 1).map(({
+                ArticlesData.slice(1,2).map(({
                         id,
                         title,
                         subtitle,
                         image
                     }) => (
 
-                        <ArticleListItem
+                        <SectionContent2x1
                                 key={id}
                                 title={title}
                                 subtitle={subtitle}
@@ -41,4 +42,4 @@ const ArticleList = () => {
     )
 }
 
-export default ArticleList
+export default MainContent2x1

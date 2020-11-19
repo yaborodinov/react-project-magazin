@@ -1,5 +1,12 @@
 let ArticlesData = [
     {
+        id: 44,
+        title: "The Soundtrack for Fargo Season 4 Is a Perfect Match",
+        subtitle: "As men become lonelier many of us are looking for distractions in all of the wrong places. Here’s why a reliance on porn is damaging us",
+        image: "./images/photo/4.jpg",
+        author: "BY PHILIP ELLIS"
+    },
+    {
         id: 1,
         title: "Why Men Are Turning to Porn as a Mental Health Coping Strategy",
         subtitle: "As men become lonelier many of us are looking for distractions in all of the wrong places. Here’s why a reliance on porn is damaging us",

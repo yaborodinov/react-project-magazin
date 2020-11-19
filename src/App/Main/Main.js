@@ -1,8 +1,9 @@
 import React from "react"
 import "./Main.css"
 import { Component } from "react"
-import ArticleList from "./articles/ArticleList.js"
-import SectionFitnessContent from "./SectionFitnessContent/SectionFitnessContent"
+import FitnessContent1x1 from "./ContentBlocks/Content1x1/FitnessContent1x1"
+import MainContent2x1 from "./ContentBlocks/Content2x1/MainContent2x1.js"
+import FitnessContent2x1 from "./ContentBlocks/Content2x1/FitnessContent2x1"
 
 
 class Main extends Component{
@@ -12,7 +13,7 @@ class Main extends Component{
             <main className="main">
                 <div className="container">
                     <section className="section row secton__article-row">
-                            <ArticleList />
+                        <MainContent2x1/>
                     </section>
                     
                     <section className="section section__fitness ">
@@ -24,7 +25,11 @@ class Main extends Component{
 
                         <div className="row section__fitness__content">
                             
-                            <SectionFitnessContent/>
+                            <FitnessContent1x1/>
+                        </div>
+
+                        <div className="row secton__article-row">
+                            <FitnessContent2x1/>
                         </div>
                             
                     </section>
