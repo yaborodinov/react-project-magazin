@@ -9,7 +9,8 @@ class SectionContent2x1 extends Component{
         const {
             title,
             subtitle,
-            image
+            image,
+
 
         } = this.props
         return (

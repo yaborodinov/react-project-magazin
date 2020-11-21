@@ -1,13 +1,13 @@
 .nav__item{
     margin-right: 10px;
 }
-.nav__item>a{
+.nav__item>span{
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 400;
     color:#fff;
 }
-.nav__item>a:hover{
+.nav__item>span:hover{
     color: #000;
     transition: all 0.2s ease-in-out;
 }

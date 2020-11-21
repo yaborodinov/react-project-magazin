@@ -1,15 +1,15 @@
 import React from "react"
 import "./SectionFitnessContent.css"
 
-import ArticlesData from "../../articles/ArticlesData";
 import SectionContent1x1 from "./SectionContent1x1";
+import FintessData from "../../articlesData/FitnessData";
 
 
 const FitnessContent1x1 = () => {
     return (
         <>
             {
-                ArticlesData.slice(0,6).map(({
+                FintessData.slice(1,7).map(({
                     id,
                     title,
                     subtitle,

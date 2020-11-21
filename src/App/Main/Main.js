@@ -24,7 +24,6 @@ class Main extends Component{
                         </div>
 
                         <div className="row section__fitness__content">
-                            
                             <FitnessContent1x1/>
                         </div>
 

@@ -1,8 +1,8 @@
 import React from "react"
 import "./ArticleItem.css"
 
-import ArticlesData from "../../articles/ArticlesData"
 import SectionContent2x1 from "./SectionContent2x1"
+import HealthData from "../../articlesData/HealthData"
 
 
 
@@ -14,7 +14,7 @@ const MainContent2x1 = () => {
             <div className="col" >
                 {
 
-                ArticlesData.slice(1,2).map(({
+                HealthData.slice(0,1).map(({
                         id,
                         title,
                         subtitle,

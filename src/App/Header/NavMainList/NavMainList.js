@@ -7,11 +7,11 @@ const NavMainList = () => {
     return (
         <div className="col  nav-main ">
             <ul className="row nav-main__list">
-                <li className="nav__item"><a href="#">fitness</a></li>
-                <li className="nav__item"><a href="#">mental strenth</a></li>
-                <li className="nav__item"><a href="#">health</a></li>
-                <li className="nav__item"><a href="#">nutrition</a></li>
-                <li className="nav__item"><a href="#">workouts</a></li>
+                <li className="nav__item"><span>fitness</span></li>
+                <li className="nav__item"><span>mental strenth</span></li>
+                <li className="nav__item"><span>health</span></li>
+                <li className="nav__item"><span>nutrition</span></li>
+                <li className="nav__item"><span>workouts</span></li>
 
 
             </ul>
