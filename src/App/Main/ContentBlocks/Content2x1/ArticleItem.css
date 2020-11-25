@@ -1,12 +1,14 @@
 
 .section__article-item{
+    margin-top: 40px;
     margin-bottom: 60px;
 }
 
 .section__article-img{
     width: 100%;
     height: auto;
-    margin: 20px 0 20px 0;
+    /* margin: 20px 0 20px 0; */
+    margin-bottom: 20px;
 }
 .section__article-title-block{
     border-bottom: 1px solid #000 ;
@@ -35,6 +37,20 @@
     font-size: 26px;
     font-weight: 700;
 }
+
+/* SectionContent2x1Type2 */
+
+.section__article-item-type2{
+    background-color: #EFEBDE;
+}
+
+
+
+
+
+
+
+
 
 
 /* mobile */
