@@ -7,7 +7,6 @@
 .section__article-img{
     width: 100%;
     height: auto;
-    /* margin: 20px 0 20px 0; */
     margin-bottom: 20px;
 }
 .section__article-title-block{
@@ -42,12 +41,34 @@
 
 .section__article-item-type2{
     background-color: #EFEBDE;
+    flex-direction: column-reverse;
+
+}
+.img-type2{
+    margin-bottom: 0;
+}
+.title-block-type2{
+    padding: 42.5px 16px;
+}
+.author-type2{
+    text-align: center;
+    margin: 20px 0;
 }
 
 
 
 
 
+
+
+
+/* laptop */
+@media(min-width:992px){
+    .section__article-item-type2{
+        flex-direction: row;
+        align-items: center;
+    }
+}
 
 
 

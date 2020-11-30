@@ -2,21 +2,33 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
-
 }
 
 .secton__article-row{
     flex-direction: column;
-    width: 100%;
 }
 
 .section_title{
-    font-size: 6rem;
+    font-size: 4.5rem;
     margin-right: 20px;
     text-transform: uppercase;
 }
 
 
+
+
+
+
+
+
+
+/* laptop */
+@media(min-width:992px){
+    .section_title{
+        font-size: 6em;
+    }
+
+}
 
 
 

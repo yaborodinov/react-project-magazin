@@ -18,7 +18,6 @@ class Main extends Component{
             <main className="main">
                 <div className="container">
                     <section className="section row secton__article-row">
-                        {/* <MainContent2x1/> */}
                         <div className="col" >
                             {
 
@@ -51,25 +50,25 @@ class Main extends Component{
                         </div>
 
                         <div className="row section__fitness__content">
-                            
-                                {
-                                    FintessData.slice(1, 7).map(({
-                                        id,
-                                        title,
-                                        subtitle,
-                                        image,
-                                        author
-                                    }) => (
-                                            <SectionContent1x1
-                                                key={id}
-                                                title={title}
-                                                subtitle={subtitle}
-                                                image={image}
-                                                author={author}
-                                            />
-                                        ))
-                                }
-                            
+
+                            {
+                                FintessData.slice(1, 7).map(({
+                                    id,
+                                    title,
+                                    subtitle,
+                                    image,
+                                    author
+                                }) => (
+                                        <SectionContent1x1
+                                            key={id}
+                                            title={title}
+                                            subtitle={subtitle}
+                                            image={image}
+                                            author={author}
+                                        />
+                                    ))
+                            }
+
                         </div>
 
                         <div className="row secton__article-row">
@@ -105,8 +104,8 @@ class Main extends Component{
 
                     <section className="section section__entertainment">
                         <div className="row block_header ">
-                            <h2 className="section_title col col-xs-12 col-sm-12 col-md-8 ">entertainment</h2>
-                            <div className="block_header__line col   col-md-4 "></div>
+                            <h2 className="section_title  col-xs-12 col-sm-12 col-md-8 ">entertainment</h2>
+                            <div className="block_header__line    col-md-4 "></div>
 
                         </div>
 
@@ -119,19 +118,84 @@ class Main extends Component{
                                         id,
                                         title,
                                         subtitle,
-                                        image
+                                        image,
+                                        author
                                     }) => (
                                             <SectionContent2x1Type2
                                                 key={id}
                                                 title={title}
                                                 subtitle={subtitle}
                                                 image={image}
+                                                author={author}
                                             />
                                         ))
                                 }
-                            </div>     
+                            </div>
+
+
                         </div>
+
+                        <div className="row section__fitness__content">
+
+                            {
+                                EntertainmentData.slice(1, 4).map(({
+                                    id,
+                                    title,
+                                    subtitle,
+                                    image,
+                                    author
+                                }) => (
+                                        <SectionContent1x1
+                                            key={id}
+                                            title={title}
+                                            subtitle={subtitle}
+                                            image={image}
+                                            author={author}
+                                        />
+                                    ))
+                            }
+
+                        </div>
+
+
+
                     </section>
+
+                    <section className="section section_food&diet">
+                        <div className="row block_header ">
+                            <h2 className="section_title  col-xs-12 col-sm-12 col-md-8 ">Food & Diet</h2>
+                            <div className="block_header__line    col-md-4 "></div>
+
+                        </div>
+
+
+                        
+                        <div className="row section__fitness__content">
+
+                            {
+                                EntertainmentData.slice(4, 7).map(({
+                                    id,
+                                    title,
+                                    subtitle,
+                                    image,
+                                    author
+                                }) => (
+                                        <SectionContent1x1
+                                            key={id}
+                                            title={title}
+                                            subtitle={subtitle}
+                                            image={image}
+                                            author={author}
+                                        />
+                                    ))
+                            }
+
+                        </div>
+
+
+
+                    </section>
+
                 </div>
                 
                 
