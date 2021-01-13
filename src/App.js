@@ -5,6 +5,8 @@ import "./Common/Style/Base.css"
 
 import Header from "./App/Header/Header.js"
 import Main from "./App/Main/Main.js"
+import Footer from "./App/Footer/Footer"
+
 
 
 const App = () => {
@@ -12,7 +14,7 @@ const App = () => {
     <>
         <Header/>
         <Main/>
-        <footer></footer> 
+        <Footer/> 
     </>
   )
 }
