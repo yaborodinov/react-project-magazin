@@ -5,10 +5,11 @@ import logo from "./logo.png"
 
 
 const Footer = () => {
+
     return (
         <div className="footer">
             <div className="container ">
-                <div className="row footer_row">
+                <div className="row footer_logo_row">
                     <img src={logo} alt="menthhealth" className="col" />
                     <div className="col">
                         <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIiBjbGFzcz0iIj48Zz48cGF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGQ9Im0xNS45OTcgMy45ODVoMi4xOTF2LTMuODE2Yy0uMzc4LS4wNTItMS42NzgtLjE2OS0zLjE5Mi0uMTY5LTMuMTU5IDAtNS4zMjMgMS45ODctNS4zMjMgNS42Mzl2My4zNjFoLTMuNDg2djQuMjY2aDMuNDg2djEwLjczNGg0LjI3NHYtMTAuNzMzaDMuMzQ1bC41MzEtNC4yNjZoLTMuODc3di0yLjkzOWMuMDAxLTEuMjMzLjMzMy0yLjA3NyAyLjA1MS0yLjA3N3oiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48L2c+PC9zdmc+" alt="" />
@@ -18,6 +19,63 @@ const Footer = () => {
                         <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDMxMCAzMTAiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJYTUxJRF84MjJfIj4KCTxwYXRoIGlkPSJYTUxJRF84MjNfIiBkPSJNMjk3LjkxNyw2NC42NDVjLTExLjE5LTEzLjMwMi0zMS44NS0xOC43MjgtNzEuMzA2LTE4LjcyOEg4My4zODZjLTQwLjM1OSwwLTYxLjM2OSw1Ljc3Ni03Mi41MTcsMTkuOTM4ICAgQzAsNzkuNjYzLDAsMTAwLjAwOCwwLDEyOC4xNjZ2NTMuNjY5YzAsNTQuNTUxLDEyLjg5Niw4Mi4yNDgsODMuMzg2LDgyLjI0OGgxNDMuMjI2YzM0LjIxNiwwLDUzLjE3Ni00Ljc4OCw2NS40NDItMTYuNTI3ICAgQzMwNC42MzMsMjM1LjUxOCwzMTAsMjE1Ljg2MywzMTAsMTgxLjgzNXYtNTMuNjY5QzMxMCw5OC40NzEsMzA5LjE1OSw3OC4wMDYsMjk3LjkxNyw2NC42NDV6IE0xOTkuMDIxLDE2Mi40MWwtNjUuMDM4LDMzLjk5MSAgIGMtMS40NTQsMC43Ni0zLjA0NCwxLjEzNy00LjYzMiwxLjEzN2MtMS43OTgsMC0zLjU5Mi0wLjQ4NC01LjE4MS0xLjQ0NmMtMi45OTItMS44MTMtNC44MTktNS4wNTYtNC44MTktOC41NTR2LTY3Ljc2NCAgIGMwLTMuNDkyLDEuODIyLTYuNzMyLDQuODA4LTguNTQ2YzIuOTg3LTEuODE0LDYuNzAyLTEuOTM4LDkuODAxLTAuMzI4bDY1LjAzOCwzMy43NzJjMy4zMDksMS43MTgsNS4zODcsNS4xMzQsNS4zOTIsOC44NjEgICBDMjA0LjM5NCwxNTcuMjYzLDIwMi4zMjUsMTYwLjY4NCwxOTkuMDIxLDE2Mi40MXoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8L2c+PC9zdmc+" alt=""/>
                     </div>
                 </div>
+
+                <div className="row footer_links_row">
+                    <div className="col col-sm-3">
+                        <ul>
+                            <li>About Men's Health</li>
+                            <li>Advertise</li>
+                            <li>Other Hearst Subscriptions</li>
+                        </ul>
+                    </div>
+
+                    <div className="col col-sm-3">
+                        <ul>
+                            <li>Newsletter</li>
+                            <li>Subscribe</li>
+                            <li>Media Kit</li>
+                        </ul>
+                    </div>
+
+                    <div className="col col-sm-3">
+                        <ul>
+                            <li>Customer Care</li>
+                            <li>Give a Gift</li>
+                        </ul>
+                    </div>
+
+                    <div className="col col-sm-3">
+                        <ul>
+                            <li>E-prints, Reprints</li>
+                            <li>Manage Email </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="row footer_logo_row">
+                        <img data-src="https://assets.hearstapps.com/sites/menshealth/assets/images/logos/network-logo.565bb17.png" class="footer-network-logo lazyloaded" alt="Hearst Men's and Enthusiast Media Group - A Part of Hearst Digital Media" src="https://assets.hearstapps.com/sites/menshealth/assets/images/logos/network-logo.565bb17.png"></img>
+                </div>
+                <div className="row footer_info_row">
+                    <div className="col col-xs-12">
+                        <p>A Part of Hearst Digital Media</p>
+                        <p>Men's Health participates in various affiliate marketing programs, which means we may get paid commissions on editorially chosen products purchased through our links to retailer sites</p>
+                        <p>©2021 Hearst Magazine Media, Inc. All Rights Reserved.</p>
+                    </div>
+                </div>
+
+                <div className="row footer_links_row">
+                    <div className="col col-xs-12">
+                        <ul className="col-xs-12">
+                            <li>Privacy Notice/Notice at Collection</li>
+                            <li>Your California Privacy Rights</li>
+                            <li>Interest-Based Ads</li>
+                            <li>Terms of Use</li>
+                            <li>Site Map</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <button className="footer_btn"> Do not Sell My Personal Information</button>
             </div>
         </div>
     )
